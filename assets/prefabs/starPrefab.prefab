@@ -97,13 +97,15 @@
       "__id__": 1
     },
     "_enabled": true,
-    "_defaultClip": null,
+    "_defaultClip": {
+      "__uuid__": "4c34a00d-a604-4b9f-a15d-b5331152f1bb"
+    },
     "_clips": [
       {
         "__uuid__": "4c34a00d-a604-4b9f-a15d-b5331152f1bb"
       }
     ],
-    "playOnLoad": false
+    "playOnLoad": true
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -111,7 +113,7 @@
       "__id__": 1
     },
     "asset": {
-      "__id__": 0
+      "__uuid__": "e014bc8c-56e5-4785-941e-d7af982d9a66"
     },
     "fileId": "bed09fZJ1dBxar5l0XlSGbP",
     "sync": false

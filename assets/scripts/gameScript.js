@@ -18,6 +18,10 @@ cc.Class({
         star: {
             default : null,
             type: cc.Prefab
+        },
+        sky: {
+            default: null,
+            type: cc.Node
         }
     },
 
@@ -25,6 +29,7 @@ cc.Class({
     onLoad: function () {
         this.xSpeed = 0;
         this.rate = 0;
+        this.stars = [];
         var self = this;
         cc.eventManager.addListener({
             event: cc.EventListener.KEYBOARD,
@@ -54,8 +59,9 @@ cc.Class({
             }
         }, this.node);
         
-        var s = cc.instantiate(this.star);
-        cc.log(this.node.getParent().name);
+        cc.Scheduler
+        var star = cc.instantiate(this.star);
+        this.sky.addChild(star);
     },
 
     // called every frame, uncomment this function to activate update callback
