@@ -1,0 +1,27 @@
+{
+  "appKey": "",
+  "appSecret": "",
+  "excludeScenes": [],
+  "includeAnySDK": false,
+  "includeSDKBox": false,
+  "includeSdk": [
+    "anysdk"
+  ],
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.cocoStar",
+  "privateKey": "",
+  "renderMode": "0",
+  "startScene": "c575e253-f93f-40da-a86d-be01be838545",
+  "title": "cocoStar",
+  "webOrientation": "auto"
+}
