@@ -14,22 +14,13 @@ cc.Class({
         // ...
         xMaxSpeed:0,
         incrementRate:0,
-        reboundDistance:0,
-        star: {
-            default : null,
-            type: cc.Prefab
-        },
-        sky: {
-            default: null,
-            type: cc.Node
-        }
+        reboundDistance:0
     },
 
     // use this for initialization
     onLoad: function () {
         this.xSpeed = 0;
         this.rate = 0;
-        this.stars = [];
         var self = this;
         cc.eventManager.addListener({
             event: cc.EventListener.KEYBOARD,
@@ -59,9 +50,6 @@ cc.Class({
             }
         }, this.node);
         
-        cc.Scheduler
-        var star = cc.instantiate(this.star);
-        this.sky.addChild(star);
     },
 
     // called every frame, uncomment this function to activate update callback
