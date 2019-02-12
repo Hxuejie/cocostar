@@ -1,2 +1,2 @@
 # cocostar
-cocos creator使用测试项目
+cocos creator试用测试项目
